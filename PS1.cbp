@@ -31,6 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="PSVIII_Moosader.png" />
+		<Unit filename="PeachKat_Moosader.bmp" />
+		<Unit filename="input.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.hpp" />
+		<Unit filename="player.hpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

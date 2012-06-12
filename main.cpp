@@ -1,15 +1,17 @@
 #include <SDL/SDL.h>
+
 #include "main.hpp"
+#include "input.hpp"
+#include "player.hpp"
 
 using namespace std;
 
 int main ( int argc, char* argv[] )
 {
     Main main;
-    main.Setup(); // Init
+    main.Setup(); // Init SDL
+    main.Event(); // Window Event
 
-    //Quit SDL
-    SDL_Quit();
-
-     return 0;
+    main.Clean(); //Quit SDL
+    return 0;
 }
