@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1339533231 source:/home/gamer/Documents/projects/PickinSticks-master/main.cpp
+	<SDL/SDL.h>
+	"main.hpp"
+	"input.hpp"
+	"player.hpp"
+
+1339533231 /home/gamer/Documents/projects/PickinSticks-master/main.hpp
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"player.hpp"
+
+1450554062 /home/gamer/Documents/projects/PickinSticks-master/player.hpp
+
+1339533231 /home/gamer/Documents/projects/PickinSticks-master/input.hpp
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+
